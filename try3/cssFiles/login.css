@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.3) 100%), url("http://localhost/try/images/4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    background-color:  rgba(245, 245, 220, 0.8);
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nac-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nac-container a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px 15px;
+}
+
+.nac-container a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.login-container {
+    background-color: black;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    margin-top: 60px; /* Distanță de la bara de navigație */
+}
+
+.signup-text {
+    margin-top: 10px;
+}
+
+.signup-text p {
+    margin: 0;
+}
+
+.signup-text a {
+    text-decoration: none;
+    color: orange;
+}
+
+#loginFormTitle, #selectOption {
+    color: orange;
+}
+
+/* Stiluri pentru input-uri */
+#email, #password {
+    color: white; /* Textul va fi alb */
+    background-color: transparent; /* Fundal transparent */
+    border: none; /* Eliminăm chenarul implicit */
+    border-bottom: 2px solid orange; /* Linie de jos portocalie */
+    padding: 5px; /* Spațiere interioară */
+    width: 70%; /* Umplere la lățime */
+    box-sizing: border-box; /* Asigurăm că padding-ul nu afectează lățimea totală */
+    font-size: 16px; /* Dimensiunea fontului */
+    outline: none; /* Eliminăm conturul pe focus */
+}
+
+/* Stil pentru placeholder */
+#email::placeholder, #password::placeholder {
+    color: white; /* Textul placeholder-ului va fi alb */
+    opacity: 0.6; /* Opacitate pentru placeholder */
+}
+
+/* Stil pentru completarea automată (optional) */
+/* La momentul actual, nu există o soluție CSS pură care să elimine completarea automată a browserului fără prefixe vendor-specifici. */
+
+/* Stil pentru chenar la focus */
+#email:focus, #password:focus {
+    border-bottom: 2px solid orange; /* Stil special pentru focus */
+    box-shadow: 0 0 0 2px orange; /* Efect de chenar la focus */
+}
+
+
+
+/* Restul stilurilor rămân neschimbate */
+
+.radio-options {
+    text-align: left; /* Aliniere text pentru opțiunile radio */
+    color: orange; /* Culoare text pentru opțiuni */
+    margin-bottom: 5px; /* Spațiu între opțiuni și butonul de submit */
+}
+
+.radio-options label {
+    display: block; /* Fiecare opțiune pe un rând nou */
+    margin-bottom: 2px; /* Spațiu între fiecare opțiune */
+}
+
+.radio-options input[type="radio"] {
+    margin-right: 5px; /* Spațiu între butonul radio și textul opțiunii */
+}
+
+
+#loginBtn {
+    background-color: orange; /* Fundal portocaliu */
+    color: black; /* Text negru */
+    border: none; /* Eliminăm chenarul */
+    padding: 10px 35px; /* Spațiere internă */
+    border-radius: 7px; /* Rotunjire colțuri */
+    cursor: pointer; /* Indicator de cursor la hover */
+    transition: background-color 0.5s, color 0.5s; /* Tranziție pentru efectul de hover */
+}
+
+#loginBtn:hover {
+    background-color: darkorange; /* Schimbare culoare fundal la hover */
+    color: white; /* Schimbare culoare text la hover */
+}
+
+
+#text1{
+    color: white;
+}
+
+#text3{
+    color: white;
+}
+
+
