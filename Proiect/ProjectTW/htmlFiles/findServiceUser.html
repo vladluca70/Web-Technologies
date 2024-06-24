@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlaCO</title>
+    <link rel="stylesheet" href="http://localhost/ProjectTW/cssFiles/findServiceUser.css">
+    <link rel="icon" href="http://localhost/ProjectTW/images/logo1.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="http://localhost/ProjectTW/phpFiles/user.php">Profile</a></li>
+                <li><a href="http://localhost/ProjectTW/htmlFiles/modifyUserProfile.html">Modify Profile</a></li>
+                <li><a href="">Find a service</a></li>
+                <li><a href="http://localhost/ProjectTW/htmlFiles/receivedOffersU.html">Received offers</a></li>
+                <li><a href="http://localhost/ProjectTW/htmlFiles/acceptedOffersU.html">Accepted offers</a></li>
+                <li><a href="http://localhost/ProjectTW/phpFiles/logout.php">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="find-service">
+        <form id="findServiceUser" method="POST" action="http://localhost/ProjectTW/phpFiles/findServiceUser.php">
+            <h2>Find a Service</h2>
+            
+            <label for="desiredService">Desired service</label>
+            <input type="text" id="desiredService" name="desiredService" required>
+            <br><br> 
+
+            <label for="projectDescription">Service description</label>
+            <input type="text" id="projectDescription" name="projectDescription" required>
+            <br><br>
+
+            <label for="estimatedPrice">Estimated price</label>
+            <input type="text" id="estimatedPrice" name="estimatedPrice" required>
+            <br><br>
+
+            <label for="typeOfProperty">Type of property</label>
+            <input type="text" id="typeOfProperty" name="typeOfProperty" required>
+            <br><br>
+
+            <button type="submit">Send request</button>
+        </form>
+    </section>
+</body>
+</html>

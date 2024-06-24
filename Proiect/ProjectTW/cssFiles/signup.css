@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to top, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.3) 100%), url("http://localhost/ProjectTW/images/3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+    background-color:  rgba(245, 245, 220, 0.8);
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nac-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nac-container a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    padding: 10px 15px;
+}
+
+.nac-container a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.signup-container {
+    background: linear-gradient(45deg, #E4DDD5, #9DB1C3, #495194);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    margin-top: 60px; 
+}
+
+.signup-text {
+    margin-top: 10px;
+}
+
+.signup-text p {
+    margin: 0;
+}
+
+.signup-text a {
+    text-decoration: none;
+    color: blue;
+}
+
+#signupFormTitle, #selectOption {
+    color: blue;
+}
+
+
+#email, #password {
+    color: white;
+    background-color: transparent; 
+    border: none; 
+    border-bottom: 2px solid skyblue; 
+    padding: 5px; 
+    width: 70%; 
+    box-sizing: border-box;
+    font-size: 16px; 
+    outline: none;
+}
+
+
+#email::placeholder, #password::placeholder {
+    color: white; 
+    opacity: 0.6;
+}
+
+
+#email:focus, #password:focus {
+    border-bottom: 2px solid skyblue;
+    box-shadow: 0 0 0 2px skyblue; 
+}
+
+
+.radio-options {
+    text-align: left; 
+    color: blue; 
+    margin-bottom: 5px; 
+}
+
+.radio-options label {
+    display: block; 
+    margin-bottom: 2px;
+}
+
+.radio-options input[type="radio"] {
+    margin-right: 5px; 
+}
+
+
+#signupBtn {
+    background-color: slateblue;
+    color: whitesmoke; 
+    border: none; 
+    padding: 10px 35px; 
+    border-radius: 7px; 
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s; 
+}
+
+#signupBtn:hover {
+    background-color: skyblue; 
+    color: black; 
+}
+
+
+#text1{
+    color: white;
+}
+
+#text3{
+    color: white;
+}
+
+
