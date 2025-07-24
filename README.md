@@ -28,7 +28,8 @@ This website is built using a combination of **HTML**, **CSS**, **PHP**, and **J
 
 - Users must **register an account** by providing their **email** and **password**, which are securely stored in a database.  
 - The platform supports **login/logout** functionality with **session variables** to maintain user state across pages.  
-- Database connections are handled through a **Singleton Design Pattern** in PHP to ensure only one database connection instance exists throughout the application, improving efficiency and security.
+- Database connections are handled through a **Singleton Design Pattern** in PHP to ensure only one database connection instance exists throughout the application, improving efficiency and security.  
+- All user inputs are **sanitized and validated** before processing to **prevent SQL injection attacks** and ensure data integrity.
 
 ---
 
@@ -58,14 +59,6 @@ Check out the [video presentation here](https://www.youtube.com/watch?v=gywogtOb
 
 ---
 
-## 🚀 Getting Started
-
-To run the project locally:
-
-1. Clone the repository.  
-2. Import the database schema into your MySQL server.  
-3. Update the database connection details in the PHP singleton class.  
-4. Run the website on a local server like **XAMPP** or **MAMP**.  
 
 ---
 
@@ -77,4 +70,3 @@ Feel free to explore the code, suggest improvements, or contribute new features!
 
 Thank you for checking out **Construction Connect**! 🛠️🏡✨  
 Building better homes, one connection at a time.
-
